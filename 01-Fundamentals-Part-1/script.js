@@ -16,7 +16,7 @@ console.log(firstName);
 
 // Variable name conventions
 let farhan_danish = "FD";
-let $function = 19;
+let $function = 20;
 
 let person = "Farhan";
 let PI = 3.1415;
