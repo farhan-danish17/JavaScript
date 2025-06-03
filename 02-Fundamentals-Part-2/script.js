@@ -43,13 +43,13 @@ const num = Number('23');
 
 // Function declaration
 function calcAge1(birthYeah) {
-  return 2037 - birthYeah;
+  return 2025 - birthYeah;
 }
 const age1 = calcAge1(2005);
 
 // Function expression
 const calcAge2 = function (birthYeah) {
-  return 2037 - birthYeah;
+  return 2025 - birthYeah;
 }
 const age2 = calcAge2(2005);
 
@@ -59,12 +59,12 @@ console.log(age1, age2);
 
 // Arrow functions
 
-const calcAge3 = birthYeah => 2037 - birthYeah;
+const calcAge3 = birthYeah => 2025 - birthYeah;
 const age3 = calcAge3(2005);
 console.log(age3);
 
 const yearsUntilRetirement = (birthYeah, firstName) => {
-  const age = 2037 - birthYeah;
+  const age = 2025 - birthYeah;
   const retirement = 65 - age;
   // return retirement;
   return `${firstName} retires in ${retirement} years`;
@@ -92,7 +92,7 @@ console.log(fruitProcessor(2, 3));
 
 // Reviewing Functions
 const calcAge = function (birthYeah) {
-  return 2037 - birthYeah;
+  return 2025 - birthYeah;
 }
 
 const yearsUntilRetirement = function (birthYeah, firstName) {
@@ -103,7 +103,7 @@ const yearsUntilRetirement = function (birthYeah, firstName) {
     console.log(`${firstName} retires in ${retirement} years`);
     return retirement;
   } else {
-    console.log(`${firstName} has already retired 🎉`);
+    console.log(`${firstName} has already retired `);
     return -1;
   }
 }
@@ -183,13 +183,13 @@ console.log(friends);
 // friends = ['Bob', 'Alice']
 
 const firstName = 'Farhan';
-const Farhan = [firstName, 'Danish', 2037 - 2005, 'programmer', friends];
+const Farhan = [firstName, 'Danish', 2025 - 2005, 'programmer', friends];
 console.log(Farhan);
 console.log(Farhan.length);
 
 // Exercise
 const calcAge = function (birthYeah) {
-  return 2037 - birthYeah;
+  return 2025 - birthYeah;
 }
 const years = [1990, 1967, 2002, 2010, 2018];
 
@@ -269,7 +269,7 @@ console.log(bills, tips, totals);
 const FarhanArray = [
   'Farhan',
   'Danish',
-  2037 - 2005,
+  2025 - 2005,
   'programmer',
   ['Asif', 'Ashu', 'nikki']
 ];
@@ -277,7 +277,7 @@ const FarhanArray = [
 const Farhan = {
   firstName: 'Farhan',
   lastName: 'Danish',
-  age: 2037 - 2005,
+  age: 2025 - 2005,
   job: 'programmer',
   friends: ['Asif', 'Ashu', 'nikki']
 };
@@ -288,7 +288,7 @@ const Farhan = {
 const Farhan = {
   firstName: 'Farhan',
   lastName: 'Danish',
-  age: 2037 - 2005,
+  age: 2025 - 2005,
   job: 'Programmer',
   friends: ['Asif', 'Ashu', 'Nikki']
 };
@@ -332,16 +332,16 @@ const Farhan = {
   hasDriversLicense: true,
 
   // calcAge: function (birthYeah) {
-  //   return 2037 - birthYeah;
+  //   return 2025 - birthYeah;
   // }
 
   // calcAge: function () {
   //   // console.log(this);
-  //   return 2037 - this.birthYeah;
+  //   return 2025 - this.birthYeah;
   // }
 
   calcAge: function () {
-    this.age = 2037 - this.birthYeah;
+    this.age = 2025 - this.birthYeah;
     return this.age;
   },
 
@@ -435,7 +435,7 @@ for (let rep = 1; rep <= 30; rep++) {
 const Farhan = [
   'Farhan',
   'Danish',
-  2037 - 2005,
+  2025 - 2005,
   'programmer',
   ['Asif', 'Ashu', 'nikki'],
   true
@@ -463,7 +463,7 @@ const years = [2005, 2007, 1969, 2020];
 const ages = [];
 
 for (let i = 0; i < years.length; i++) {
-  ages.push(2037 - years[i]);
+  ages.push(2025 - years[i]);
 }
 console.log(ages);
 
@@ -488,7 +488,7 @@ for (let i = 0; i < Farhan.length; i++) {
 const Farhan = [
   'Farhan',
   'Danish',
-  2037 - 2005,
+  2025 - 2005,
   'programmer',
   ['Asif', 'Ashu', 'nikki'],
   true

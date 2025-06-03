@@ -67,7 +67,7 @@ console.log(lastName);
 // Basic Operators
 
 // Math operators
-const now = 2037;
+const now = 2025;
 const ageFarhan = now - 2005;
 const ageChikki = now - 2007;
 console.log(ageFarhan, ageChikki);
@@ -98,7 +98,7 @@ console.log(now - 2005 > now - 2007);
 
 
 // Operator Precedence
-const now = 2037;
+const now = 2025;
 const ageFarhan = now - 2005;
 const ageChikki = now - 2007;
 
@@ -149,7 +149,7 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 const firstName = 'Farhan';
 const job = 'programmer';
 const birthYear = 2005;
-const year = 2037;
+const year = 2025;
 
 const Farhan = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
 console.log(Farhan);
@@ -416,9 +416,9 @@ if (20 > 10) {
 }
 
 const me = 'Farhan';
-console.log(`I'm ${2037 - 2005} years old ${me}`);
+console.log(`I'm ${2025 - 2005} years old ${me}`);
 
-////////////////////////////////////
+//////////
 // The Conditional (Ternary) Operator
 const age = 20;
 // age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water');
